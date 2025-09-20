@@ -1,8 +1,8 @@
 {
-      "name": "Golden Ideas",
+      "name": "Golden_ideas",
+      "homepage": "https://rosine27102.github.io/Golden_ideas/",
       "version": "0.1.0",
       "private": true,
-      "homepage": "https://rosine27102.github.io/Golden_ideas",
       "dependencies": {
             "@motionone/react": "^10.16.4",
             "@radix-ui/react-accordion": "^1.2.3",
@@ -55,11 +55,9 @@
             "vite": "^6.3.6"
       },
       "scripts": {
-                "start": "react-scripts start",
             "dev": "vite",
             "build": "vite build",
-            "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-            
+            "predeploy":"npm run build",
+            "deploy":"gh-pages -d dist"
       }
 }

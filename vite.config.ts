@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-     base: '/Golden_ideas/',
+     base: '/Golden_ideas',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
